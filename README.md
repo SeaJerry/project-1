@@ -7,9 +7,9 @@ You are responsible for scheduling time with your squad to seek approval for eac
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
@@ -50,13 +50,13 @@ Include images of wireframe with a description of the specific wireframe.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | hr |
-| Nav Bar Functions | H | 3 Hr | hr |
-| Regular Nav | H | 1hr | hr |  
+| Hamburger | H | 2hr | hr | 4hr
+| Nav Bar Functions | H | 3 Hr | hr | 6hr
+| Regular Nav | H | 1hr | hr |  1hr
 | Adding Form/Button and Functionality | H | 2 hr|  hr | 
-| Javascript/ Jquery Functionality | H | 4 hr|  hr | 
-| CSS Layout and flex| M | 5hr | hr|
-| Responsive | H | 3-4 hr | hr | hr |
+| Javascript/ Jquery Functionality | H | 4 hr|  hr | 1hr
+| CSS Layout and flex| M | 5hr | hr| 4hr
+| Responsive | H | 3-4 hr | hr | hr | 4hr
 | Total | H | 21 hrs| hrs |
 
 #### PostMVP
@@ -68,7 +68,8 @@ Include images of wireframe with a description of the specific wireframe.
 | Total | H | 8 hrs| hrs |
 
 ## Additional Libraries
-
+Google Fonts - importing different font families.
+Font Awesome - adding icons to the contact section.
 Jquery - add interaction between the user and the navigation bar and the contact submission section. 
 ## Code Snippet
 
@@ -81,7 +82,7 @@ function reverse(string) {
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+Creating the NAVBAR and its functionality took more time that expected. I couldn't get the layout of the sliding menu to display correctly. But, then I realized that I needed to hide the menu from the view port and return it using a toggle function. I used this resource https://www.freecodecamp.org/news/how-to-build-a-sliding-menu-bar-using-html-css-and-javascript-669f0c1c37a7/ which helped explain A LOT! However, it still took a lot of tweaking and moving elements around. About 6 hours total...
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                

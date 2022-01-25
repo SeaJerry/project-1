@@ -30,14 +30,7 @@ header .logo img{
     height: 50px;
     border-radius: 50px;
 }
-
-header ul{
-    position: relative ;
-    display: none;
-}
-
-
-
+/* FUNCTION AT THE MOMENT THE POSITION OF THE MENU IS TO LEFT AND HIDDEN 100%*/
 .menu {
     position: absolute;
     top: 100%;
@@ -50,10 +43,11 @@ header ul{
     background:#24252A;
     transition: 0.5s;
 }
-
+/* WHEN IT IS ACTIVE THEN THEN IT SHOULD RETURN 100% BACK */
 .menu.active {
     left: 0;
 }
+/*  FUNCTION  */
 .menu li {
     margin: 40px 0;
     list-style: none;
@@ -63,7 +57,7 @@ header ul{
     color: #fff;
     text-decoration: none;
     list-style: none;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 2px;
     transition: .6s;
 }
@@ -71,11 +65,11 @@ header ul{
 .menu li a:hover {
     text-decoration: overline;
 }
-
+/* FUNCTION THE ICONS SHOULD TOGGLE BACK AND FORTH, IN ADDITION, LISTEN FOR ON EVENT AND CREATE ONE FUNCTION THAT IS TIED TO THE MENU AND THE NAV ICONS TO WORK IN UNISON*/
 .toggle {
     width: 60px;
     height: 60px;
-    background-image: url('images/icons8-menu-24.png');
+    background-image: url('images/hamburger.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -88,7 +82,7 @@ header ul{
     background-size: 20px;
     background-position: center;
 }
-
+/* FUNCTION */
 
 section {
     padding: 100px;
@@ -128,7 +122,6 @@ section {
     position: relative;
     border-bottom: #fff 5px solid;
     opacity: .9;
-    
 }
 
 .about-title {
@@ -144,6 +137,7 @@ section {
 .slash {
     display: none;
 }
+
 .content-1 {
     font-size: 18px;
 }
@@ -169,6 +163,7 @@ section {
     letter-spacing: 10px;
     color: #2f4353 ;
 }
+
 .projects .projects-container {
     display: flex;
     flex-direction: column;
@@ -197,14 +192,15 @@ section {
 
 /* TABLET RESPONSIVE */
 @media only screen and (min-width: 768px){
-        .brand {
-            align-items: center;
-            padding: 0px;
-        }
 
         header .logo img {
             height: 90px;
             border-radius: 50px;
+        }
+
+        .brand {
+            align-items: center;
+            padding: 0px;
         }
     
         .projects .projects-container {
@@ -219,32 +215,6 @@ section {
             width: 500px;
             margin: 20px;
         }
-
-        header ul{
-            position: relative ;
-            display: flex;
-        }
-
-        header ul li {
-            position: relative;
-            list-style: none;
-        }
-
-        header ul li a {
-            position: relative;
-            display: inline-block;
-            margin: 0 15px;
-            color: #24252A;
-            text-decoration: none;
-            font-size: 20px;
-            cursor: grab;
-            transition: 0.2s;
-        }
-        header ul li a:hover {
-            letter-spacing: 6px;
-            color: rgb(173, 216, 230);
-        }
-
 
         .mission {
             font-size: 50px;
@@ -261,3 +231,21 @@ section {
 
 /* D E S K T O P */
 
+
+@media only screen and (min-width: 1024px) {
+    .menu li a {
+        font-size: 40px;
+    }
+
+    .projects .projects-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .projects-content img{
+        height: 300px;
+        width: 400px;
+        margin: 50px;
+    }
+}
