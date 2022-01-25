@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     align-items: center;
     opacity: .6;
-    background: #fff ;
+    background: rgb(235, 231, 231);
 }
 
 header .logo img{
@@ -37,21 +37,23 @@ header ul{
 }
 
 
-/* 
+
 .menu {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 100%;
+    left: -100%;
     display: block;
     padding: 100px 50px;
     text-align: center;
-    width: 300px;
+    width: 100%;
     height: 100vh;
     background:#24252A;
     transition: 0.5s;
-    z-index: 999;
 }
 
+.menu.active {
+    left: 0;
+}
 .menu li {
     margin: 40px 0;
     list-style: none;
@@ -68,10 +70,9 @@ header ul{
 
 .menu li a:hover {
     text-decoration: overline;
-} */
+}
 
 .toggle {
-    position: relative;
     width: 60px;
     height: 60px;
     background-image: url('images/icons8-menu-24.png');
@@ -79,7 +80,6 @@ header ul{
     background-size: 30px;
     background-position: center;
     cursor: pointer;
-    
 }
 
 .toggle.active {
@@ -105,6 +105,7 @@ section {
     flex-direction: row;
     align-items: center;
     border-bottom: rgb(173, 216, 230, .8) 3px solid;
+    padding: 0;
 }
 
 .name {
@@ -113,7 +114,7 @@ section {
 }
   
 .mission {
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
     opacity: .7;
 }
@@ -127,11 +128,12 @@ section {
     position: relative;
     border-bottom: #fff 5px solid;
     opacity: .9;
+    
 }
 
 .about-title {
     margin-bottom: 15px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .developer {
@@ -139,6 +141,9 @@ section {
     font-style: italic;
 }
 
+.slash {
+    display: none;
+}
 .content-1 {
     font-size: 18px;
 }
@@ -170,7 +175,6 @@ section {
     align-items: center;
 }
 
-
 .projects-content img{
     border: white 3px solid;
     height: 200px;
@@ -191,10 +195,6 @@ section {
     font-size: 20px;
 }
 
-/* .box {
-    float: left;
-    display: inline;
-} */
 /* TABLET RESPONSIVE */
 @media only screen and (min-width: 768px){
         .brand {
@@ -245,15 +245,19 @@ section {
             color: rgb(173, 216, 230);
         }
 
+
         .mission {
             font-size: 50px;
             color: #fff;
             opacity: .7;
         }
 
-        .toggle {
-            display: none;
+        .slash {
+            display: contents;
         }
 }
 
+
+
+/* D E S K T O P */
 
