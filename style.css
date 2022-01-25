@@ -5,6 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Cormorant Garamond', serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -16,7 +17,7 @@ body{
 header {
     position: fixed;
     width: 100%;
-    padding: 10px 50px;
+    padding: 10px 25px;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -26,33 +27,68 @@ header {
 }
 
 header .logo img{
+    height: 50px;
     border-radius: 50px;
 }
 
 header ul{
     position: relative ;
-    display: flex;
+    display: none;
 }
 
-header ul li {
-    position: relative;
+
+/* 
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    padding: 100px 50px;
+    text-align: center;
+    width: 300px;
+    height: 100vh;
+    background:#24252A;
+    transition: 0.5s;
+    z-index: 999;
+}
+
+.menu li {
+    margin: 40px 0;
     list-style: none;
 }
 
-header ul li a {
-    position: relative;
-    display: inline-block;
-    margin: 0 15px;
-    color: #24252A;
+.menu li a {
+    color: #fff;
     text-decoration: none;
-    font-size: 20px;
-    cursor: grab;
-    transition: 0.2s;
+    list-style: none;
+    font-size: 40px;
+    letter-spacing: 2px;
+    transition: .6s;
 }
-header ul li a:hover {
-    letter-spacing: 6px;
-    color: #2e8b57;
+
+.menu li a:hover {
+    text-decoration: overline;
+} */
+
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-image: url('images/icons8-menu-24.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+    
 }
+
+.toggle.active {
+    background-image: url('images/close.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+}
+
 
 section {
     padding: 100px;
@@ -66,11 +102,9 @@ section {
     background-position: center;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: center;
-}
-
-.brand {
-    padding: 0 0 10px 50px;
+    border-bottom: rgb(173, 216, 230, .8) 3px solid;
 }
 
 .name {
@@ -79,33 +113,147 @@ section {
 }
   
 .mission {
-    font-size: 40px;
+    font-size: 20px;
     color: #fff;
     opacity: .7;
 }
 
 .about {
-    background-color: lightgray;
-    opacity: .9;
     text-align: center;
     width: 100%;
+    background: url(images/ocean.webp);
+    background-size: cover;
+    justify-content: center;
+    position: relative;
+    border-bottom: #fff 5px solid;
+    opacity: .9;
 }
 
 .about-title {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 25px;
 }
 
+.developer {
+    text-decoration: underline;
+    font-style: italic;
+}
 
+.content-1 {
+    font-size: 18px;
+}
 
+.projects {
+    background-color: #2f4353;
+    background-image: linear-gradient(60deg, #2f4353 0%, #d2ccc4 75%);
+    padding: 70px;
+    opacity: .7;
+}
+
+.projects-title {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: overline;
+    color: #ffff;
+    letter-spacing: 5px;
+    transition: 0.5s;
+}
+
+.projects-title:hover {
+    letter-spacing: 10px;
+    color: #2f4353 ;
+}
 .projects .projects-container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
-.projects .projects-container .projects-content {
-    width: 50%;
-    padding: 20px;
+
+.projects-content img{
+    border: white 3px solid;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    opacity: .3;
+    cursor: pointer;
+    transition: .5s;
 }
+
+.projects-content img:hover {
+    opacity: 1.5;
+}
+
+.text h3{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/* .box {
+    float: left;
+    display: inline;
+} */
+/* TABLET RESPONSIVE */
+@media only screen and (min-width: 768px){
+        .brand {
+            align-items: center;
+            padding: 0px;
+        }
+
+        header .logo img {
+            height: 90px;
+            border-radius: 50px;
+        }
+    
+        .projects .projects-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .projects-content img{
+            border: white 3px solid;
+            height: 300px;
+            width: 500px;
+            margin: 20px;
+        }
+
+        header ul{
+            position: relative ;
+            display: flex;
+        }
+
+        header ul li {
+            position: relative;
+            list-style: none;
+        }
+
+        header ul li a {
+            position: relative;
+            display: inline-block;
+            margin: 0 15px;
+            color: #24252A;
+            text-decoration: none;
+            font-size: 20px;
+            cursor: grab;
+            transition: 0.2s;
+        }
+        header ul li a:hover {
+            letter-spacing: 6px;
+            color: rgb(173, 216, 230);
+        }
+
+        .mission {
+            font-size: 50px;
+            color: #fff;
+            opacity: .7;
+        }
+
+        .toggle {
+            display: none;
+        }
+}
+
 

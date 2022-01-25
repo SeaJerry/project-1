@@ -6,32 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Jerry Sea</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1e9d251d63.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!-- N A V B A R  -->
     <header>
-        <a href="#" class="logo"> <img src="images/SEA-logos.jpeg" alt="" height="100px"></a>
-        <div class="toggle">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+        <a href="#" class="logo"> <img src="images/logo.jpeg" alt="logo" ></a>
+        <div class="toggle"></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
     </header>
 
 <!-- L A N D I N G  P A G E-->
-    <section class="banner">
+    <section class="banner" id="home">
         <div class="brand">
             <h3 class="mission">Developer | Designer | Explorer</h3>
         </div>
     </section>
 
 <!-- A B O U T  M E  S E C T I O N -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-title">
-            <h2>Jerry Sea | Developer</h2>
+            <h2>Jerry Sea | <span class="developer">Developer</span></h2>
         </div>
         <div class="content">
             <div class="content-1">
@@ -41,45 +41,27 @@
     </section>
 
 <!-- P R O J E C T S   S E C T I O N -->
-    <section class="projects">
+    <section class="projects" id="work">
         <div class="projects-title">
-            <h2>Projects</h2>
+            <h2>Work</h2>
         </div>
         <div class="projects-container">
             <div class="projects-content">
-                <img src="images/JoesValley.jpeg" alt="" width="540px" height="510px">
+                <img src="images/salt.png" alt="screenshot of website">
             </div>
             <div class="projects-content">
-                <img src="images/Leaveanworth .jpeg" alt="" width="540px" height="510px">
-            </div>
-            <div class="projects-content">
-                <img src="images/Utah.jpeg" alt="" width="540px" height="510px">
-            </div>
-            <div class="projects-content">
-                <img src="images/YellowStone.jpeg" alt="" width="540px" height="510px">
+                <img src="images/wavehuggers.png" alt="screenshot of website">
             </div>
         </div>
     </section>
 
-
-
-
-
-
-
-
 <!-- C O N T A C T  S E C T I O N -->
-    <section class="contact">
-        <div class="contact-title">
-            <h2>Contact</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </div>
+    <section class="contact" id ="contact">
         <div class="contact-info">
-            <h3>Contact Info</h3>
             <div class="contact-info-container">
                 <div class="box">
                     <div class="icon">
-                    
+                        <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <div class="text">
                         <h3>Address</h3>
@@ -90,7 +72,7 @@
             <div class="contact-info-container">
                 <div class="box">
                     <div class="icon">
-                    
+                        <i class="fas fa-phone"></i>
                     </div>
                     <div class="text">
                         <h3>Phone</h3>
@@ -102,7 +84,7 @@
         <div class="contact-info-container">
             <div class="box">
                 <div class="icon">
-                
+                    <i class="far fa-envelope"></i>
                 </div>
                 <div class="text">
                     <h3>Email</h3>
