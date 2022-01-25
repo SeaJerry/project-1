@@ -46,8 +46,13 @@ header ul li a {
     color: #24252A;
     text-decoration: none;
     font-size: 20px;
+    cursor: grab;
+    transition: 0.2s;
 }
-
+header ul li a:hover {
+    letter-spacing: 6px;
+    color: #2e8b57;
+}
 
 section {
     padding: 100px;
@@ -82,8 +87,14 @@ section {
 .about {
     background-color: lightgray;
     opacity: .9;
+    text-align: center;
+    width: 100%;
 }
 
+.about-title {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
 
 
 
