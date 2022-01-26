@@ -10,8 +10,8 @@
 
 body{
     background-color: #24252A;
-    color: #ffff;
-    opacity: .9;
+    color: white;
+    opacity: .8;
 }
 
 header {
@@ -22,13 +22,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    opacity: .6;
-    background: rgb(235, 231, 231);
+    opacity: .7;
+    background-color: #2f4353;
+    background-image: linear-gradient(55deg, #2f4353 5%, #d2ccc4 70%);
+    /* border-bottom: #009688 2px solid; */
 }
 
 header .logo img{
     height: 50px;
     border-radius: 50px;
+    border: #009688 2px solid;
 }
 /* FUNCTION AT THE MOMENT THE POSITION OF THE MENU IS TO LEFT AND HIDDEN 100%*/
 .menu {
@@ -42,6 +45,7 @@ header .logo img{
     height: 100vh;
     background:#24252A;
     transition: 0.5s;
+    opacity: .7;
 }
 /* WHEN IT IS ACTIVE THEN THEN IT SHOULD RETURN 100% BACK */
 .menu.active {
@@ -74,6 +78,7 @@ header .logo img{
     background-size: 30px;
     background-position: center;
     cursor: pointer;
+    color: whitesmoke;
 }
 
 .toggle.active {
@@ -116,7 +121,7 @@ section {
 .about {
     text-align: center;
     width: 100%;
-    background: url(images/ocean.webp);
+    background: url(images/ocean.jpeg);
     background-size: cover;
     justify-content: center;
     position: relative;
@@ -155,13 +160,13 @@ section {
     font-size: 25px;
     text-decoration: overline;
     color: #ffff;
-    letter-spacing: 5px;
-    transition: 0.5s;
+    letter-spacing: 10px;
+    transition: 0.1s;
 }
 
 .projects-title:hover {
-    letter-spacing: 10px;
-    color: #2f4353 ;
+    letter-spacing: 20px;
+    color: #009688 ;
 }
 
 .projects .projects-container {
@@ -188,7 +193,32 @@ section {
     font-style: italic;
     text-decoration: underline;
     font-size: 20px;
+    text-align: center;
 }
+
+.contact {
+    padding: 20px;
+    text-align: center;
+    opacity: .6;
+}
+
+.contact-info-container {
+    margin: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    /* float: left; */
+    display: inline;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.text p {
+    margin-top: 10px;
+}
+
 
 /* TABLET RESPONSIVE */
 @media only screen and (min-width: 768px){
@@ -196,6 +226,9 @@ section {
         header .logo img {
             height: 90px;
             border-radius: 50px;
+        }
+        .menu li a {
+            font-size: 40px;
         }
 
         .brand {
