@@ -10,8 +10,8 @@ You are responsible for scheduling time with your squad to seek approval for eac
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 4| MVP & Bug Fixes | complete
+|Day 5| Final Touches | complete
 |Day 6| Present | Incomplete
 
 
@@ -50,21 +50,20 @@ Include images of wireframe with a description of the specific wireframe.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | hr | 4hr | 4hr
-| Nav Bar Functions | H | 3 Hr | hr | 6hr | 6hr
+| Hamburger | H | 2hr | hr | 4hr | 
+| Nav Bar Functions | H | 3 Hr | hr | 6hr | 
 | Regular Nav | H | 1hr | hr |  1hr
-| Javascript/ Jquery Functionality | H | 4 hr|  hr | 1hr |  6hr
-| CSS Layout and flex| M | 5hr | hr| 4hr | 4hr
-| Responsive | H | 3-4 hr | hr | 4hr | 4hr
-| Total | H | 21 hrs| hrs |
+| Javascript/ Jquery Functionality | H | 4 hr|  hr | 1hr |  
+| CSS Layout and flex| M | 5hr | hr| 4hr | 
+| Responsive | H | 3-4 hr | hr | 4hr | 
+| Total | H | 21 hrs| hrs | 20 hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| CSS styling (Text, Colors, ETC) | L | 4hr | -hr | hr | 5hr
-| Images and Icons | L | 2 hr | hr | 2hr
-| Color change while scrolling on page  | L | 2 hr | hr |
-| Total | H | 8 hrs| hrs |
+| CSS styling (Text, Colors, ETC) | L | 4hr | 8hr | 
+| Images and Icons | L | 2 hr | hr | 2hr |
+| Total | H | 8 hrs| hrs | 10hr |
 
 ## Additional Libraries
 Google Fonts - importing different font families.
