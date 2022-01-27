@@ -52,11 +52,11 @@ Include images of wireframe with a description of the specific wireframe.
 | --- | :---: |  :---: | :---: | 
 | Hamburger | H | 2hr | 4hr | 
 | Nav Bar Functions | H | 3 Hr | 6hr | 
-| Regular Nav | H | 1hr |  1hr |
-| Javascript/ Jquery Functionality | H | 4 hr| 1hr |  
+| Regular Nav | H | 1hr |  3hr |
+| Javascript/ Jquery Functionality | H | 4 hr| 10hr |  
 | CSS Layout and flex| M | 5hr | 4hr | 
 | Responsive | H | 3-4 hr | 4hr | 
-| Total | H | 21 hrs| 20 hrs |
+| Total | H | 21 hrs| 31 hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
