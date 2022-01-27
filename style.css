@@ -25,7 +25,6 @@ header {
     opacity: .7;
     background-color: #2f4353;
     background-image: linear-gradient(55deg, #2f4353 5%, #d2ccc4 70%);
-    /* border-bottom: #009688 2px solid; */
 }
 
 header .logo img{
@@ -155,15 +154,10 @@ section {
     opacity: .8;
 }
 
-.next, .previous{
-    display: none;
-}
-
-
 .projects-title {
     text-align: center;
     font-style: italic;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: overline;
     color: #ffff;
     letter-spacing: 10px;
@@ -181,12 +175,16 @@ section {
     align-items: center;
 }
 
+.project-item {
+    display: none;
+}
 
 .projects-content img{
-    border: #fff 3px solid;
     height: 200px;
     width: 300px;
     margin: 10px;
+    border-radius: 10px;
+    border: #bbb solid 4px;
     opacity: .3;
     cursor: pointer;
     transition: .5s;
@@ -196,13 +194,22 @@ section {
     opacity: 1.5;
 }
 
-.text h3{
-    font-style: italic;
-    text-decoration: underline;
-    font-size: 20px;
-    text-align: center;
-}
 
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 5px 3px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #bbb;
+  }
+  
 .contact {
     padding: 20px;
     text-align: center;
@@ -248,18 +255,26 @@ section {
             flex-direction: row;
             align-items: center;
         }
+
+        .projects-title {
+            font-size: 25px;
+        }
     
         .projects-content img{
             border: #fff 3px solid;
-            height: 200px;
-            width: 350px;
+            height: 300px;
+            width: 500px;
             margin: 15px;
         }
-
+    
         .mission {
             font-size: 50px;
             color: #fff;
             opacity: .7;
+        }
+
+        .about-title {
+            font-size: 25px;
         }
 
         .slash {
@@ -288,9 +303,11 @@ section {
     }
 
     .project-item img {
-        max-width: 500px;
-        height: 400px;
-        margin: 0px;
+        width: 700px;
+        height: 500px;
+        margin: 10px;
+        border-radius: 10px;
+        border: #bbb solid 4px;
     }
 
     .dot {
@@ -305,7 +322,9 @@ section {
       }
       
       .active, .dot:hover {
-        background-color: #2f4353;
+        background-color: #fff;
       }
-      
+      .mission {
+          font-size: 55px;
+      }
 }

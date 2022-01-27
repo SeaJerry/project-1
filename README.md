@@ -50,20 +50,19 @@ Include images of wireframe with a description of the specific wireframe.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | hr | 4hr
+| Hamburger | H | 2hr | hr | 4hr 
 | Nav Bar Functions | H | 3 Hr | hr | 6hr
 | Regular Nav | H | 1hr | hr |  1hr
-| Adding Form/Button and Functionality | H | 2 hr|  hr | 
-| Javascript/ Jquery Functionality | H | 4 hr|  hr | 1hr
-| CSS Layout and flex| M | 5hr | hr| 4hr
+| Javascript/ Jquery Functionality | H | 4 hr|  hr | 1hr | 6hr
+| CSS Layout and flex| M | 5hr | hr| 4hr 
 | Responsive | H | 3-4 hr | hr | hr | 4hr
 | Total | H | 21 hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| CSS styling (Text, Colors, ETC) | L | 4hr | -hr | hr |
-| Images and Icons | L | 2 hr | hr |
+| CSS styling (Text, Colors, ETC) | L | 4hr | -hr | hr | 5hr
+| Images and Icons | L | 2 hr | hr | 2hr
 | Color change while scrolling on page  | L | 2 hr | hr |
 | Total | H | 8 hrs| hrs |
 
@@ -79,6 +78,19 @@ Use this section to include a brief code snippet of functionality that you are p
 function reverse(string) {
 	// here is the code to reverse a string of text
 }
+
+$(() => {
+
+    const $menuToggle = $('.toggle');
+    
+    const $menuShowcase = $('.menu');
+    
+    $menuToggle.click(function (){
+        $menuToggle.toggleClass('active');
+        $menuShowcase.toggleClass('active');
+    })
+});
+
 ```
 
 ## Issues and Resolutions
