@@ -284,7 +284,7 @@ section {
     }
 
     .project-item {
-        /* display: none; */
+        display: none;
     }
 
     .project-item img {
@@ -308,86 +308,4 @@ section {
         background-color: #2f4353;
       }
       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* .projects-container {
-        display: flex;
-        justify-content: center;
-        width: 740px;
-        margin:40px auto;
-        overflow: auto;
-    }
-    
-    .projects-content {
-        width: 700px;
-        height: 420px;
-        position: relative;
-        overflow: hidden;
-        float: left;
-        padding: 3px;
-    }
-    
-    .projects-content img {
-        display: none;
-        width: 700px;
-        height: 420px;
-        opacity: .5;
-        transition: 0.5s;
-        border-radius: 10px;
-    }
-    
-    
-    .projects-content img.active {
-        display: inline-block;
-    }
-    
-    .previous, .next {
-        float: left;
-        margin-top: 200px;
-        cursor: pointer;
-    }
-    
-    .previous {
-        display: flex;
-        align-items: center;
-        position: relative;
-        margin-right: -38px;
-        z-index: 100;
-        height: 30px;
-        width: 30px;
-        transition: 0.5s;
-    }
-    
-    .next {
-        display: inline;
-        position: absolute;
-        margin-left: -32px;
-        z-index: 100;
-        height: 30px;
-        width: 30px;
-        transition: 0.5s;
-    }
-     */
-
 }
