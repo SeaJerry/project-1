@@ -15,7 +15,7 @@
         <div class="toggle"></div>
             <ul class="menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about-tag">About</a></li>
                 <li><a href="#work">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,7 +27,7 @@
         </div>
     </section>
 <!-- A B O U T  M E  S E C T I O N -->
-    <section class="about" id="about">
+    <section class="about" id="about-tag">
         <div class="about-title">
             <h2>Jerry Sea <span class="slash">|</span> <span class="developer">Developer</span></h2>
         </div>
@@ -42,13 +42,22 @@
         <div class="projects-title">
             <h2>Work</h2>
         </div>
+        <!-- W3 SCHOOLS  https://www.w3schools.com/howto/howto_js_slideshow.asp -->
         <div class="projects-container">
             <div class="projects-content">
-                <img src="images/salt.png" alt="screenshot of website">
+                <div class="project-item">
+                    <img src="images/salt.png" alt="screenshot of website">
+                </div>
+                <div class="project-item">
+                    <img src="images/wavehuggers.png" alt="screenshot of website">
+                </div>
             </div>
-            <div class="projects-content">
-                <img src="images/wavehuggers.png" alt="screenshot of website">
+            <!-- NEXT AND PREVIOUS BUTTONS -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
             </div>
+
         </div>
     </section>
 <!-- C O N T A C T  S E C T I O N -->
@@ -62,7 +71,7 @@
                     </div>
                     <div class="text">
                         <!-- <h3>Address</h3> -->
-                        <p>1231 Orange Ave Oceanside, CA </p>
+                        <p>1231 Orange Ave, Oceanside, CA </p>
                     </div>
                 </div>
             </div>
@@ -90,7 +99,7 @@
             </div>
         </div>
     </section>
-    <!-- JQUERY & MAIN PATH -->
+    <!-- JQUERY & MAIN PATH $ SLICK-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>

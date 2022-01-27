@@ -10,7 +10,7 @@
 
 body{
     background-color: #24252A;
-    color: white;
+    color: #fff;
     opacity: .8;
 }
 
@@ -103,7 +103,7 @@ section {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    border-bottom: rgb(173, 216, 230, .8) 3px solid;
+    border-bottom: #add8e6 3px solid;
     padding: 0;
 }
 
@@ -125,8 +125,9 @@ section {
     background-size: cover;
     justify-content: center;
     position: relative;
-    border-bottom: #fff 5px solid;
+    border-bottom: #fff 3px solid;
     opacity: .9;
+    padding: 80px;
 }
 
 .about-title {
@@ -151,8 +152,13 @@ section {
     background-color: #2f4353;
     background-image: linear-gradient(60deg, #2f4353 0%, #d2ccc4 75%);
     padding: 70px;
-    opacity: .7;
+    opacity: .8;
 }
+
+.next, .previous{
+    display: none;
+}
+
 
 .projects-title {
     text-align: center;
@@ -166,17 +172,18 @@ section {
 
 .projects-title:hover {
     letter-spacing: 20px;
-    color: #009688 ;
+    color: #717171 ;
 }
 
-.projects .projects-container {
+.projects-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+
 .projects-content img{
-    border: white 3px solid;
+    border: #fff 3px solid;
     height: 200px;
     width: 300px;
     margin: 10px;
@@ -209,7 +216,6 @@ section {
 }
 
 .box{
-    /* float: left; */
     display: inline;
     width: 30%;
     padding: 10px;
@@ -217,6 +223,7 @@ section {
 }
 .text p {
     margin-top: 10px;
+    font-size: 16px;
 }
 
 
@@ -235,18 +242,18 @@ section {
             align-items: center;
             padding: 0px;
         }
-    
-        .projects .projects-container {
+
+        .projects-content{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
         }
-
+    
         .projects-content img{
-            border: white 3px solid;
-            height: 300px;
-            width: 500px;
-            margin: 20px;
+            border: #fff 3px solid;
+            height: 200px;
+            width: 350px;
+            margin: 15px;
         }
 
         .mission {
@@ -270,15 +277,117 @@ section {
         font-size: 40px;
     }
 
-    .projects .projects-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    .projects-container{
+        max-width: 500px;
+        position: relative;
+        margin: auto;
     }
 
-    .projects-content img{
-        height: 300px;
-        width: 400px;
-        margin: 50px;
+    .project-item {
+        /* display: none; */
     }
+
+    .project-item img {
+        max-width: 500px;
+        height: 400px;
+        margin: 0px;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 5px 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #2f4353;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .projects-container {
+        display: flex;
+        justify-content: center;
+        width: 740px;
+        margin:40px auto;
+        overflow: auto;
+    }
+    
+    .projects-content {
+        width: 700px;
+        height: 420px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        padding: 3px;
+    }
+    
+    .projects-content img {
+        display: none;
+        width: 700px;
+        height: 420px;
+        opacity: .5;
+        transition: 0.5s;
+        border-radius: 10px;
+    }
+    
+    
+    .projects-content img.active {
+        display: inline-block;
+    }
+    
+    .previous, .next {
+        float: left;
+        margin-top: 200px;
+        cursor: pointer;
+    }
+    
+    .previous {
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-right: -38px;
+        z-index: 100;
+        height: 30px;
+        width: 30px;
+        transition: 0.5s;
+    }
+    
+    .next {
+        display: inline;
+        position: absolute;
+        margin-left: -32px;
+        z-index: 100;
+        height: 30px;
+        width: 30px;
+        transition: 0.5s;
+    }
+     */
+
 }
