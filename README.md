@@ -50,20 +50,20 @@ Include images of wireframe with a description of the specific wireframe.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | hr | 4hr | 
-| Nav Bar Functions | H | 3 Hr | hr | 6hr | 
-| Regular Nav | H | 1hr | hr |  1hr
-| Javascript/ Jquery Functionality | H | 4 hr|  hr | 1hr |  
-| CSS Layout and flex| M | 5hr | hr| 4hr | 
-| Responsive | H | 3-4 hr | hr | 4hr | 
-| Total | H | 21 hrs| hrs | 20 hrs |
+| Hamburger | H | 2hr | 4hr | 
+| Nav Bar Functions | H | 3 Hr | 6hr | 
+| Regular Nav | H | 1hr |  1hr |
+| Javascript/ Jquery Functionality | H | 4 hr| 1hr |  
+| CSS Layout and flex| M | 5hr | 4hr | 
+| Responsive | H | 3-4 hr | 4hr | 
+| Total | H | 21 hrs| 20 hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | CSS styling (Text, Colors, ETC) | L | 4hr | 8hr | 
-| Images and Icons | L | 2 hr | hr | 2hr |
-| Total | H | 8 hrs| hrs | 10hr |
+| Images and Icons | L | 2 hr | 2hr |
+| Total | H | 8 hr| 10hr |
 
 ## Additional Libraries
 Google Fonts - importing different font families.
