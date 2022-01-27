@@ -50,12 +50,12 @@ Include images of wireframe with a description of the specific wireframe.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | hr | 4hr 
-| Nav Bar Functions | H | 3 Hr | hr | 6hr
+| Hamburger | H | 2hr | hr | 4hr | 4hr
+| Nav Bar Functions | H | 3 Hr | hr | 6hr | 6hr
 | Regular Nav | H | 1hr | hr |  1hr
-| Javascript/ Jquery Functionality | H | 4 hr|  hr | 1hr | 6hr
-| CSS Layout and flex| M | 5hr | hr| 4hr 
-| Responsive | H | 3-4 hr | hr | hr | 4hr
+| Javascript/ Jquery Functionality | H | 4 hr|  hr | 1hr |  6hr
+| CSS Layout and flex| M | 5hr | hr| 4hr | 4hr
+| Responsive | H | 3-4 hr | hr | 4hr | 4hr
 | Total | H | 21 hrs| hrs |
 
 #### PostMVP
