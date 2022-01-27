@@ -44,11 +44,13 @@ header .logo img{
     height: 100vh;
     background:#24252A;
     transition: 0.5s;
-    opacity: .7;
+    opacity: .6;
 }
 /* WHEN IT IS ACTIVE THEN THEN IT SHOULD RETURN 100% BACK */
 .menu.active {
     left: 0;
+    background:#24252A;
+    opacity: .7;
 }
 /*  FUNCTION  */
 .menu li {
@@ -57,7 +59,7 @@ header .logo img{
 }
 
 .menu li a {
-    color: #fff;
+    color: #bbb;
     text-decoration: none;
     list-style: none;
     font-size: 30px;
@@ -288,8 +290,11 @@ section {
 
 
 @media only screen and (min-width: 1024px) {
+    .menu li {
+        margin: 50px;
+    }
     .menu li a {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .projects-container{
