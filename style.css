@@ -140,16 +140,12 @@ section {
 
 .about-title {
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .developer {
     text-decoration: underline;
     font-style: italic;
-}
-
-.slash {
-    display: none;
 }
 
 .content-1 {
@@ -239,7 +235,7 @@ section {
 }
 .text p {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     color: #fff;
 }
@@ -263,6 +259,10 @@ i:hover {
         }
         .menu li a {
             font-size: 40px;
+        }
+
+        .content p {
+            font-size: 20px;
         }
 
         .brand {
@@ -297,9 +297,10 @@ i:hover {
             font-size: 25px;
         }
 
-        .slash {
-            display: contents;
+        .text p {
+            font-size: 18px;
         }
+
 }
 
 
@@ -350,4 +351,14 @@ i:hover {
       .mission {
           font-size: 55px;
       }
+
+      .content p {
+        font-size: 20px;
+      }
+
+      .text p {
+
+        font-size: 18px;
+
+    }
 }
