@@ -31,6 +31,12 @@ header .logo img{
     height: 50px;
     border-radius: 50px;
     border: #009688 2px solid;
+    transform: scale(0.9);
+    transition: 0.8s;
+}
+
+header .logo img:hover{
+    transform: scale(0.9) translateY(-15px);
 }
 /* FUNCTION AT THE MOMENT THE POSITION OF THE MENU IS TO LEFT AND HIDDEN 100%*/
 .menu {
@@ -79,7 +85,7 @@ header .logo img{
     background-size: 30px;
     background-position: center;
     cursor: pointer;
-    color: whitesmoke;
+    color: #f5f5f5;
 }
 
 .toggle.active {
@@ -115,6 +121,7 @@ section {
   
 .mission {
     font-size: 25px;
+    letter-spacing: 1px;
     color: #fff;
     opacity: .7;
 }
@@ -163,7 +170,7 @@ section {
     text-decoration: overline;
     color: #ffff;
     letter-spacing: 10px;
-    transition: 0.1s;
+    transition: 0.8s;
 }
 
 .projects-title:hover {
@@ -233,6 +240,15 @@ section {
 .text p {
     margin-top: 10px;
     font-size: 16px;
+}
+
+i {
+    transform: scale(0.9);
+    transition: 0.8s;
+}
+
+i:hover {
+    transform: scale(0.9) translateY(-15px);
 }
 
 
