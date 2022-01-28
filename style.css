@@ -110,7 +110,8 @@ section {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    border-bottom: #add8e6 3px solid;
+    border-bottom:  3px solid;
+    border-image: linear-gradient(to right, #2f4353 , #d2ccc4 ) 1;
     padding: 0;
 }
 
