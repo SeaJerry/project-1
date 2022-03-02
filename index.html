@@ -1,102 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Jerry Sea</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/logo.jpeg">
-    <script src="https://kit.fontawesome.com/1e9d251d63.js" crossorigin="anonymous"></script>
-</head>
-<body>
-<!-- N A V B A R  -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/logo.jpeg" />
+    <script
+      src="https://kit.fontawesome.com/646233bc1e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- N A V B A R  -->
     <header>
-        <a href="#home" class="logo"> <img src="images/logo.jpeg" alt="logo" ></a>
-        <div class="toggle"></div>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about-tag">About</a></li>
-                <li><a href="#work">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+      <a href="#home" class="logo">
+        <img src="images/logo.jpeg" alt="logo"
+      /></a>
+      <div class="toggle"></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-tag">About</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </header>
-<!-- L A N D I N G  P A G E-->
+    <!-- L A N D I N G  P A G E-->
     <section class="banner" id="home">
-        <div class="brand">
-            <h3 class="mission">Developer | Designer | Explorer</h3>
-        </div>
+      <div class="brand">
+        <h3 class="mission">Developer | Designer | Explorer</h3>
+      </div>
     </section>
-<!-- A B O U T  M E  S E C T I O N -->
+    <!-- A B O U T  M E  S E C T I O N -->
     <section class="about" id="about-tag">
-        <div class="about-title">
-            <h2>Jerry Sea <span class="slash">|</span> <span class="developer">Developer</span></h2>
+      <div class="about-title">
+        <h2>
+          Jerry Sea <span class="slash">|</span>
+          <span class="developer">Developer</span>
+        </h2>
+      </div>
+      <div class="content">
+        <div class="content-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            aliquam, doloremque maxime aspernatur odio esse. Fuga officiis ad,
+            iste tempora consectetur exercitationem enim, odio pariatur unde
+            quis iure aut possimus!<br /><br />Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Impedit, aliquid qui sit repellat
+            porro quam aperiam facilis dolorem necessitatibus voluptatum quas
+            nemo dolorum ipsam magni inventore odio. Cum, reiciendis laboriosam.
+          </p>
         </div>
-        <div class="content">
-            <div class="content-1">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aliquam, doloremque maxime aspernatur odio esse. Fuga officiis ad, iste tempora consectetur exercitationem enim, odio pariatur unde quis iure aut possimus!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, aliquid qui sit repellat porro quam aperiam facilis dolorem necessitatibus voluptatum quas nemo dolorum ipsam magni inventore odio. Cum, reiciendis laboriosam.</p>
-            </div>
-        </div>
+      </div>
     </section>
-<!-- P R O J E C T S   S E C T I O N -->
+    <!-- P R O J E C T S   S E C T I O N -->
     <section class="projects" id="work">
-        <div class="projects-title">
-            <h2>Work</h2>
+      <div class="projects-title">
+        <h2>Work</h2>
+      </div>
+      <!-- W3 SCHOOLS  https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+      <div class="projects-container">
+        <div class="projects-content">
+          <div class="project-item">
+            <a href="https://seajerry.github.io/breweryapplication">
+              <img src="images/Scope.png" alt="screenshot of website" />
+            </a>
+          </div>
+          <div class="project-item">
+            <img src="images/salt.png" alt="screenshot of website" />
+          </div>
+          <div class="project-item">
+            <img src="images/wavehuggers.png" alt="" />
+          </div>
         </div>
-        <!-- W3 SCHOOLS  https://www.w3schools.com/howto/howto_js_slideshow.asp -->
-        <div class="projects-container">
-            <div class="projects-content">
-                <div class="project-item">
-                    <img src="images/salt.png" alt="screenshot of website">
-                </div>
-                <div class="project-item">
-                    <img src="images/wavehuggers.png" alt="screenshot of website">
-                </div>
-            </div>
-        </div>
-                    <!-- NEXT AND PREVIOUS/ DOTS BUTTONS -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-        </div>
+      </div>
+      <!-- NEXT AND PREVIOUS/ DOTS BUTTONS -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </section>
-<!-- C O N T A C T  S E C T I O N -->
+    <!-- C O N T A C T  S E C T I O N -->
     <section class="contact">
-        <div class="contact-info">
-            <div class="contact-info-container">
-                <div class="box">
-                    <div class="icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div class="text">
-                        <p>1231 Orange Ave, Oceanside, CA </p>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-info-container" id="contact">
-                <div class="box">
-                    <div class="icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <div class="text">
-                        <p>321-342-1243</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="contact-info-container">
-            <div class="box">
-                <div class="icon">
-                    <i class="far fa-envelope"></i>
-                </div>
-                <div class="text">
-                    <p>sfajoi@gmail.com </p>
-                </div>
-            </div>
-        </div>
+      <div class="icon">
+        <a href="https://github.com/SeaJerry"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+
+      <div class="icon">
+        <a href="https://www.linkedin.com/in/jerry-sea/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <div class="icon">
+        <a href="mailto:sendwithjerry@gmail.com"
+          ><i class="far fa-envelope"></i
+        ></a>
+      </div>
     </section>
     <!-- JQUERY & MAIN PATH $ SLICK-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
